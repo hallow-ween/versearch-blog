@@ -1,6 +1,7 @@
 const darklight =
 document.getElementById("darklight");
 
+let dark = false;
 
 function darkOrLight() {
 if (!dark) {
@@ -16,4 +17,5 @@ darklight.style.backgroundColor = "white";
     darklight.style.color = "black";
 dark = false;
 }
+
 };
